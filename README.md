@@ -1,5 +1,7 @@
 # Dehydrator_PID_Nextion
 
+![alt text](https://github.com/tkristner/Dehydrator_PID_Nextion/blob/master/Dehydrator_render.png?raw=true)
+
 This code is for a DIY PID driven dehydrator, based on a SSR (Solid state relay) to control heaters and fans, a Nextion display is used as a display/control interface.
 
 The dehydrator code is designed for a two zones splited dehydrator, Top and Bottom, the need was to be able to use it at half capacity.
