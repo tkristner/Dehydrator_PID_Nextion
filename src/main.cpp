@@ -35,7 +35,7 @@ SimpleTimer timer;
 
 SHTSensor sht;  // this is our precision temperature sensor, it is placed just after the fans to measure the heated air temperature entering the dehydrator room where we put something to dry.
 
-// PID limits should reflect actual configuration, in our case -6250 to 0 for cooling and 0 to 6250 for heating.
+// PID limits should reflect actual configuration, in our case -255 to 0 for cooling and 0 to 255 for heating.
 #define PID_MIN -255
 #define PID_MAX  255
 
