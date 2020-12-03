@@ -8,9 +8,11 @@ The dehydrator code is designed for a two zones splited dehydrator, Top and Bott
 
 Physically it implies having 2x heaters, 2x fans (4 in my case) the Nextion control allow to start the bottom zone if needed.
 
-To get a "synced" PWM signal for 50Hz AC 230v I use "Fast PWM to ICR1".
+I wrote [this article](https://tkristner.github.io/blog/Arduino-PWM-AC-50hz/) to explain the way I choose to provide PWM signal for AC 230v.
 
-I've choosed to put the bottom heater/fans in parrallel to the top ones with an Y cable that connect to the SSR output that is generating the AC PWM signal, and installed a mechanical relay to on/off bottom zone.
+
+I've choosed to put the bottom heater/fans in parrallel to the top ones with an Y cable that connect to the SSR output that is generating modulated the AC signal, and installed a mechanical relay to on/off bottom zone.
+
 Please be careful to choose a SSR sized to suppport the amount of current drained by heaters.
 
 A BIG Thanks to :
@@ -19,5 +21,3 @@ A BIG Thanks to :
 - Nick Gammon for the Timerx cheatsheets
 
 Don't hesitate to make pull request.
-
-Enjoy !
