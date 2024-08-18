@@ -8,7 +8,7 @@ The dehydrator code is designed for a two zones splited dehydrator, Top and Bott
 
 Physically it implies having 2x heaters, 2x fans (4 in my case) the Nextion control allow to start the bottom zone if needed.
 
-I wrote [this article](https://tkristner.github.io/blog/Arduino-PWM-AC-50hz/) to explain the way I choose to provide PWM signal for AC 230v.
+I wrote [this article](https://tkristner.github.io/blog/Arduino-PWM-AC-50hz/) to explain the way I choose to provide PWM signal for AC 230v 50Hz.
 
 
 I've choosed to put the bottom heater/fans in parrallel to the top ones with an Y cable that connect to the SSR output that is generating modulated the AC signal, and installed a mechanical relay to on/off bottom zone.
